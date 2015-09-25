@@ -42,6 +42,66 @@ a{
     
 }
 
+.spin:hover{
+     position:absolute;
+    animation-name: spinner;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin:235px 165px;
+}
+@keyframes spinner
+{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+    transform-origin: 235px 165px;
+}
+
+.spin2:hover{
+position:absolute;
+    animation-name: spinner2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin:235px 235px;
+    z-index:-1;
+}
+@keyframes spinner2
+{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+    transform-origin: 235px 235px;
+}
+.spin3:hover{
+position:absolute;
+    animation-name: spinner3;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin:165px 235px;
+    z-index:-2;
+}
+@keyframes spinner3
+{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+    transform-origin: 165px 235px;
+}
+.spin4:hover{
+	position:absolute;
+    animation-name: spinner4;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin:165px 305px;
+    z-index:-3;
+}
+@keyframes spinner4
+{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+    transform-origin: 165px 305px;
+}
 .circle1{
     width: 70px;
 	height: 70px;
@@ -50,7 +110,7 @@ a{
 	position:absolute;
 	left:200px;
 	top:60px;
-
+	z-index:2;
 }
 .circle2{
     width: 70px;
@@ -70,6 +130,7 @@ a{
 	position:absolute;
 	left:200px;
 	top:130px;
+	z-index:1;
 }
 .circle3{
     width: 70px;
@@ -87,6 +148,7 @@ a{
 	position:absolute;
 	left:235px;
 	top:200px;
+	
 }
 .quartercircle2{
     width: 35px;
