@@ -1,0 +1,29 @@
+body{
+    background-color:#9a9c9c;
+    color: white;
+    font-family: brandon-grotesque,futura, helvetica, sans-serif;
+    letter-spacing:2px;
+    text-align:center;
+}
+a{
+    text-decoration:none;
+    color:#9a9c9c;
+}
+
+.centerheader{
+    color: white;
+    font-size:25px;
+    line-height: 160%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height:150px;
+}
+.rectangle{
+    color:#9a9c9c;
+    background-color:white;
+    font-size:16px;
+}

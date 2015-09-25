@@ -1,0 +1,32 @@
+body{
+    background-color:#acaead;
+    color: white;
+    font-size:15px;
+    font-family:Helvetica, arial, sans-serif;
+}
+a{
+    color: white;
+    
+}
+p {font-weight:lighter;
+   font-size: 15px;
+   line-height: 15px;
+}
+.special{
+    background-color:gray;
+    color:black;
+}
+.top{
+    width:200px;
+    height: 100px;
+    background-color: black;
+}
+.circle{
+    background-color:orange;
+    height: 100px;
+    width:100px;
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    border-radius:50px;
+}

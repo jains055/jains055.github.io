@@ -1,0 +1,161 @@
+body{
+    background-color:white;
+    color: #9a9c9c;
+    font-size:18px;
+    font-family: brandon-grotesque,futura, helvetica, sans-serif;
+    letter-spacing:2px;
+    text-align:center;
+}
+a{
+    color:#9a9c9c;
+    text-decoration:none;
+}
+.header{
+    color: #9a9c9c;
+    position: absolute;
+    font-size:16px;
+    line-height: 160%;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    height:100px;
+}
+.rectangle{
+    color:white;
+    background-color:#9a9c9c;
+    font-size:16px;
+}
+
+.plane{
+    height:400px;
+    width:400px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-style:solid;
+    border-width:medium;
+    border-color:white;
+    
+}
+
+.circle1{
+    width: 70px;
+	height: 70px;
+	background:#4d1f20;
+	border-radius:35px;
+	position:absolute;
+	left:200px;
+	top:60px;
+
+}
+.circle2{
+    width: 70px;
+	height: 70px;
+	background:#4d1f20;
+	border-radius:35px;
+	position:absolute;
+	left:200px;
+	top:130px;
+
+}
+
+.halfcircle{
+    width: 35px;
+	height: 70px;
+	background: white;
+	position:absolute;
+	left:200px;
+	top:130px;
+}
+.circle3{
+    width: 70px;
+	height: 70px;
+	background:#4d1f20;
+	border-radius:35px;
+	position:absolute;
+	left:200px;
+	top:200px;
+}
+.quartercircle1{
+    width: 35px;
+	height: 35px;
+	background: white;
+	position:absolute;
+	left:235px;
+	top:200px;
+}
+.quartercircle2{
+    width: 35px;
+	height: 35px;
+	background: white;
+	position:absolute;
+	left:200px;
+	top:235px;
+    
+}
+.circle4{
+    width: 70px;
+	height: 70px;
+	background:#4d1f20;
+	border-radius:35px;
+	position:absolute;
+	left:130px;
+	top:200px;
+}
+.quartercircle3{
+    width: 35px;
+	height: 35px;
+	background: white;
+	position:absolute;
+	left:165px;
+	top:200px;
+}
+.quartercircle4{
+    width: 35px;
+	height: 35px;
+	background: white;
+	position:absolute;
+	left:130px;
+	top:235px;
+}
+.circle5{
+    width: 70px;
+	height: 70px;
+	background:#4d1f20;
+	border-radius:35px;
+	position:absolute;
+	left:130px;
+	top:270px;
+}
+.eighth1{
+	border-top: 35px solid white;
+	border-right: 35px solid transparent;
+	position:absolute;
+	margin-left:165px;
+	margin-top:270px;
+}
+.eighth2{
+	border-top: 35px solid white;
+	border-left: 35px solid transparent;
+	position:absolute;
+	margin-left:165px;
+	margin-top:305px;
+}
+.eighth3{
+    border-bottom: 35px solid white;
+	border-left: 35px solid transparent;
+	position:absolute;
+	margin-left:130px;
+	margin-top:305px;
+}
+.eighth4{
+    border-bottom: 35px solid white;
+	border-right: 35px solid transparent;
+	position:absolute;
+	margin-left:130px;
+	margin-top:270px;
+}
