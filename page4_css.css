@@ -45,7 +45,7 @@ a{
 .spin:hover{
      position:absolute;
     animation-name: spinner;
-    animation-duration: 7s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     transform-origin:235px 165px;
@@ -60,7 +60,7 @@ a{
 .spin2:hover{
 position:absolute;
     animation-name: spinner2;
-    animation-duration: 7s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     transform-origin:235px 235px;
@@ -75,7 +75,7 @@ position:absolute;
 .spin3:hover{
 position:absolute;
     animation-name: spinner3;
-    animation-duration: 7s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     transform-origin:165px 235px;
@@ -90,7 +90,7 @@ position:absolute;
 .spin4:hover{
 	position:absolute;
     animation-name: spinner4;
-    animation-duration: 7s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     transform-origin:165px 305px;
