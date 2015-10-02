@@ -25,15 +25,13 @@ a{
 .plane{
     height:400px;
     width:400px;
+    margin:auto;
+    top:0;
+    bottom:0;
     position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     border-style:solid;
     border-width:medium;
-    border-color:white;
+    border-color:black;
     
 }
 
@@ -517,4 +515,14 @@ position:absolute;
 	left:60px;
 	top:60px;
 }
-
+.plane2{
+	  height:400px;
+    width:400px;
+    margin-left:400px;
+    top:0;
+    bottom:0;
+    position: absolute;
+    border-style:solid;
+    border-width:medium;
+    border-color:black;
+}
