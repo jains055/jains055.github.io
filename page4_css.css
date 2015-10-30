@@ -32,7 +32,6 @@ a{
     bottom: 0;
     left: 0;
     border-style:solid;
-    border-width:medium;
     border-color:white;
     
 }
@@ -518,3 +517,13 @@ position:absolute;
 	top:60px;
 }
 
+.plane2{
+	height:400px;
+    width:400px;
+    position: absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    border-style:solid;
+    border-color:black;
+}
