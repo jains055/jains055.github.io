@@ -44,19 +44,19 @@ function locationhouse(){
 function clown(){
     console.log("gif");
     
-    $('body').append("<div class='clown'></div>")
-    $('.clown').slideDown( 4000).delay(3400).fadeOut(3000 );
+    $('body').append("<div class='clown'></div>");
+    $('.clown').slideDown( 4000).delay(1400).fadeOut(3000 );
 }
 
 function piano(){
     console.log("gif");
-  $('body').append("<div class='piano'></div>")
+  $('body').append("<div class='piano'></div>");
    $('.piano').slideDown( 2000).delay(1400).fadeOut(1000 );
 }
 
 function dance(){
     console.log("gif");
-   $('body').append("<div class='dance'></div>")
+   $('body').append("<div class='dance'></div>");
     $('.dance').slideDown( 2000).delay(1400).fadeOut(1000 );
 }
 
@@ -65,37 +65,37 @@ function dance(){
 function foodsushi(){
     console.log("sushi");
     $('body').append("<div class='sushi1'></div>");
-    $( ".sushi1" ).fadeIn( 1000 ).delay( 1000 ).fadeOut( 700 );
+    $( ".sushi1" ).fadeIn( 1000 ).delay( 2000 ).fadeOut( 700 );
    $('body').append("<div class='sushi2'></div>");
-    $( ".sushi2" ).fadeIn( 1000 ).delay( 1000 ).fadeOut( 700 );
+    $( ".sushi2" ).fadeIn( 1000 ).delay( 2000 ).fadeOut( 700 );
     $('body').append("<div class='sushi3'></div>");
-    $( ".sushi3" ).fadeIn( 1000 ).delay(1000 ).fadeOut( 700 );
+    $( ".sushi3" ).fadeIn( 1000 ).delay(2000 ).fadeOut( 700 );
       $('body').append("<div class='sushi4'></div>");
-    $( ".sushi4" ).fadeIn( 1000 ).delay( 1000 ).fadeOut( 700 );
+    $( ".sushi4" ).fadeIn( 1000 ).delay( 2000 ).fadeOut( 700 );
 }
 
 function foodice(){
     console.log("ice");
     $('body').append("<div class='ice1'></div>");
-    $( ".ice1" ).fadeIn( 1000 ).delay( 1000 ).fadeOut( 700 );
+    $( ".ice1" ).fadeIn( 1000 ).delay( 2000 ).fadeOut( 700 );
    $('body').append("<div class='icei2'></div>");
-    $( ".ice2" ).fadeIn( 1000 ).delay( 1000 ).fadeOut( 700 );
+    $( ".ice2" ).fadeIn( 1000 ).delay( 2000 ).fadeOut( 700 );
     $('body').append("<div class='ice3'></div>");
-    $( ".ice3" ).fadeIn( 1000 ).delay(1000 ).fadeOut( 700 );
+    $( ".ice3" ).fadeIn( 1000 ).delay(2000 ).fadeOut( 700 );
       $('body').append("<div class='ice4'></div>");
-    $( ".ice4" ).fadeIn( 1000 ).delay( 1000 ).fadeOut( 700 );
+    $( ".ice4" ).fadeIn( 1000 ).delay( 2000 ).fadeOut( 700 );
 }
 
 function foodcake(){
     console.log("cake");
     $('body').append("<div class='cake1'></div>");
-    $( ".cake1" ).fadeIn( 1000 ).delay( 1000 ).fadeOut( 700 );
+    $( ".cake1" ).fadeIn( 1000 ).delay( 2000 ).fadeOut( 700 );
    $('body').append("<div class='cake2'></div>");
-    $( ".cake2" ).fadeIn( 1000 ).delay( 1000 ).fadeOut( 700 );
+    $( ".cake2" ).fadeIn( 1000 ).delay( 2000 ).fadeOut( 700 );
     $('body').append("<div class='cake3'></div>");
-    $( ".cake3" ).fadeIn( 1000 ).delay(1000 ).fadeOut( 700 );
+    $( ".cake3" ).fadeIn( 1000 ).delay(2000 ).fadeOut( 700 );
       $('body').append("<div class='cake4'></div>");
-    $( ".cake4" ).fadeIn( 1000 ).delay( 1000 ).fadeOut( 700 );
+    $( ".cake4" ).fadeIn( 1000 ).delay( 2000 ).fadeOut( 700 );
 }
 
 //
