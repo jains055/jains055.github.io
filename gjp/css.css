@@ -1,0 +1,28 @@
+
+.button{
+	margin: auto;
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	width: 140px;
+	height:160px;
+	text-align: center;
+	background-color: gray;
+	border-radius: 17px;
+	position: absolute;
+	font: 15px helvetica;
+}
+
+
+.shape{
+	position:absolute;
+	width:30px;
+	height: 30px;
+	background-color: lime;
+	text-align: center;
+	padding: 20px;
+	border-radius: 20px;
+	font: 15px helvetica;
+}
+

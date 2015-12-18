@@ -1,0 +1,103 @@
+.container{
+	color: black;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height:300px;
+}
+
+.square{
+    width: 100px;
+	height: 100px;
+	background: black;
+}
+
+.rectangle {
+	width: 200px;
+	height: 100px;
+	background: black;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: black;
+	border-radius: 50px;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid black;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid black;
+}
+
+.triangle-topleft {
+	width: 0;
+	height: 0;
+	border-top: 100px solid black;
+	border-right: 100px solid transparent;
+}
+		
+.triangle-topright {
+	width: 0;
+	height: 0;
+	border-top: 100px solid black;
+	border-left: 100px solid transparent;
+
+}
+
+.trapezoid {
+	border-bottom: 100px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+}
+
+.parallelogram {
+	width: 150px;
+	height: 100px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: black;
+}
+
+.pentagon {
+    position: relative;
+    width: 54px;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: black transparent;
+}
+
+.moon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 black;
+}
+
+.cone {
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 100px solid black;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
