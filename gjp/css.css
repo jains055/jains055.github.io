@@ -5,13 +5,14 @@
     right: 0;
     bottom: 0;
     left: 0;
-	width: 140px;
-	height:160px;
+	width: 200px;
+	height:200px;
 	text-align: center;
 	background-color: gray;
-	border-radius: 17px;
+	border-radius: 20px;
 	position: absolute;
-	font: 15px helvetica;
+	font: 15px brandon-grotesque,futura, helvetica, sans-serif;
+	color: white;
 }
 
 
@@ -21,8 +22,10 @@
 	height: 30px;
 	background-color: lime;
 	text-align: center;
-	padding: 20px;
+	padding: 25px;
 	border-radius: 20px;
-	font: 15px helvetica;
+	font: 17px brandon-grotesque,futura, helvetica, sans-serif;
+	color:white;
+	line-height:30px;
 }
 
